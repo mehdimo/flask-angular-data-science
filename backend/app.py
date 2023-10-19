@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from sklearn import svm
 from sklearn import datasets
-from sklearn.externals import joblib
+import joblib
 
 # declare constants
 HOST = '0.0.0.0'
